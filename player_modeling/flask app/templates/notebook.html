@@ -1,0 +1,14 @@
+{% extends 'home.html'%}
+
+{% block body %}
+<ul class="nav nav-pills">
+
+      {% for notebook_dir in notebooks_dir %}
+        <li class="nav-item">
+            <a class="nav-link active" href="/notebook?notebook_name={{notebook_dir}}">{{notebook_dir.replace(".html","")}}</a>
+        </li>
+      {%endfor%}
+  </ul>
+  {% include "notebooks/"+notebook_name %}
+
+{% endblock %}

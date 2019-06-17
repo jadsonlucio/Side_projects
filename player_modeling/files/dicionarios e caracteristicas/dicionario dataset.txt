@@ -1,0 +1,87 @@
+gameid	Unique game identifier from Riot’s server.
+url	Match history link
+league	League
+split	Time period covered, denoted by year and suffixes (1 spring, 2 summer, po playoffs, r regionals, w worlds)
+game	Game number within the series. T tiebreaker.
+date	Calendar date/time game was created (Mountain time). Stored in Excel time format.
+patchno	Patch number, stored numerically. Note that single-digit patches are preceded by a zero (e.g. patch 6.01). Patch 6.1 = patch 6.10.
+playerid	Player/team identifier, for differentiating map side and position.
+side	Map side.
+position	Player position.
+player	Player name.
+team	Team name.
+champion	Champion name.
+ban1	Team’s first ban.
+ban2	Team’s second ban.
+ban3	Team’s third ban.
+ban4	Team’s fourth ban.
+ban5	Team’s fifth ban.
+gamelength	Game length, in minutes. (Seconds measured in hundredths of a minute.)
+result	Game result (1 win, 0 loss).
+k	Total kills.
+d	Total deaths.
+a	Total assists.
+teamkills	Total kills by team.
+teamdeaths	Total deaths by team.
+doubles	Double kills.
+triples	Triple kills.
+quadras	Quadra kills.
+pentas	Pentakills.
+fb	First blood kill (1 yes, 0 no).
+fbassist	First blood assist (1 yes, 0 no).
+fbvictim	First blood victim (1 yes, 0 no).
+fbtime	First blood time, in minutes. (Seconds measured in hundredths of a minute.)
+kpm	Kills per minute (individuals and teams reported separately).
+okpm	Opponent kills per minute (for players, reflects opponent in same position).
+ckpm	Combined kills per minute (own kills and opponent kills combined).
+fd	First dragon of game killed (1 yes, 0 no).
+fdtime	First dragon time, in minutes. (Seconds measured in hundredths of a minute.)
+teamdragkills	Total dragons killed by team.
+oppdragkills	Total dragons killed by opposing team.
+herald	Rift herald taken (1 yes, 0 opponent took it, blank herald not killed).
+heraldtime	Herald kill time, in minutes. (Seconds measured in hundredths of a minute.) For spring 2016, reflects the first herald of the game.
+ft	First tower of game killed (1 yes, 0 no).
+fttime	First tower kill time, in minutes. (Seconds measured in hundredths of a minute.)
+firstmidouter	First team to kill mid lane outer tower (1 yes, 0 no).
+firsttothreetowers	First team to kill three towers (1 yes, 0 no).
+teamtowerkills	Total towers killed by team.
+opptowerkills	Total towers killed by opposing team.
+fbaron	First baron of game killed (1 yes, 0 no).
+fbarontime	First baron time, in minutes. (Seconds measured in hundredths of a minute.)
+teambaronkills	Total barons killed by team.
+oppbaronkills	Total barons killed by opposing team.
+dmgtochamps	Total damage dealt to champions.
+dmgtochampsperminute	Total damage dealt to champions per minute.
+dmgshare	Share of team’s total damage dealt to champions.
+earnedgoldshare	Share of team’s total gold, with starting gold and inherent gold generation removed.
+wards	Total wards placed (of all types).
+wpm	Wards placed per minute (or all types).
+wardshare	Share of team’s total wards placed (of all types).
+wardkills	Total wards cleared/killed (of all types).
+wcpm	Total wards cleared/killed per minute (of all types).
+visionwards	Vision/control wards placed.
+visionwardbuys	Vision/control wards purchased.
+visiblewardclearrate	Percent of opposing team’s visible wards cleared. Includes vision/control and blue trinket wards. Reported for teams only.
+invisiblewardclearrate	Percent of opposing team’s invisible wards cleared. Includes wards from yellow trinket and sightstone items. Reported for teams only.
+totalgold	Total gold earned from all sources.
+earnedgpm	Earned gold per minute, with starting gold and inherent gold generation removed.
+goldspent	Total gold spent.
+gspd	Gold spent percentage difference. For more information, see http://oracleselixir.com/2015/07/measuring-the-margins-gold-spent-percentage-difference/.
+minionkills	Lane minions killed.
+monsterkills	Neutral monsters killed.
+monsterkillsownjungle	Neutral monsters killed in own team’s jungle.
+monsterkillsenemyjungle	Neutral monsters killed in opposing team’s jungle.
+cspm	Creep score per minute. All creep score variables include minions and monsters, and do not include wards, champion-generated minions, or other units counted as CS in-game.
+cssharepost15	Percentage of team’s total creep score post-15-minutes.
+csat10	Creep score at 10:00.
+oppcsat10	Opponent’s creep score at 10:00.
+csdat10	Creep score difference at 10:00.
+goldat10	Total gold earned at 10:00.
+oppgoldat10	Opponent’s total gold earned at 10:00.
+gdat10	Gold difference at 10:00.
+goldat15	Total gold earned at 15:00.
+oppgoldat15	Opponent’s total gold earned at 15:00.
+gdat15	Gold difference at 15:00.
+xpat10	Experience earned at 10:00.
+oppxpat10	Opponent’s experience earned at 10:00.
+xpdat10	Experience difference at 10:00.

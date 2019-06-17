@@ -1,0 +1,10 @@
+rel_goldEarned
+rel_magicDamageDealt
+rel_physicalDamageDealt
+rel_totalDamageDealt
+rel_totalDamageTaken
+rel_totalHeal
+rel_totalMinionsKilled
+rel_visionScore
+rel_wardsPlaced
+rel_neutralMinionsKilled

@@ -1,0 +1,5 @@
+win
+champion name
+champion primary type
+champion secondary type
+position

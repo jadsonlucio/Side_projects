@@ -1,0 +1,22 @@
+{% extends 'home.html' %}
+
+{% block body %}
+{% for cont in range(size_files) %}
+<div class="container">
+       <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{cont}}"><b>{{about_files_urls[cont].replace(".html","")}}</b></a>
+                </h4>
+            </div>
+            <div id="collapse{{cont}}" class="panel-collapse collapse">
+                <div class="panel-body">
+                        {% include "about/"+about_files_urls[cont] %}
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+{% endfor %}
+{% endblock %}
